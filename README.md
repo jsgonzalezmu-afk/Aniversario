@@ -53,6 +53,20 @@
             text-shadow: 0 0 20px rgba(192, 160, 98, 0.5);
             line-height: 1;
         }
+        .countdown-number2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3em;
+            color: #c0a062;
+            text-shadow: 0 0 20px rgba(192, 160, 98, 0.5);
+            line-height: 1;
+        }
+        .countdown-number3 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2em;
+            color: #aaa;
+            text-shadow: 0 0 20px rgba(192, 160, 98, 0.5);
+            line-height: 1;
+        }
         .countdown-label {
             font-size: 1em;
             color: #aaa;
@@ -416,6 +430,10 @@
             <!-- CONFIGURACIÓN: Para cambiar la fecha, modifica la línea 639 del JavaScript -->
             <!-- Ejemplo: const targetDate = new Date('2025-10-05T00:00:00'); -->
         </div>
+<div id="countdown-screen" class="countdown-number2">
+        <h1>Faltan..</h1>
+    </div>
+
         <div style="position: absolute; inset: 0; overflow: hidden;">
             <div id="countdown-stars"></div>
         </div>
@@ -437,7 +455,11 @@
                 <div class="countdown-label">Segundos</div>
             </div>
         </div>
+<div id="countdown-screen" class="countdown-number3">
+        <h1>Para nuestro aniversario</h1>
     </div>
+    </div>
+
 
     <!-- PANTALLA DE BIENVENIDA -->
     <div id="start-screen" class="screen hidden">
@@ -895,4 +917,3 @@ Tu persona favorita.</p>
     </script>
 </body>
 </html>
-
